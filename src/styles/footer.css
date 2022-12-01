@@ -1,0 +1,97 @@
+footer {
+    background: #0f373a;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    border: solid 0.1rem black;
+}
+
+footer div.footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: double 0.6rem white;
+}
+
+footer h1 {
+    margin-left: 0.1rem;
+    font-size: 3rem;
+    text-shadow: 0.6rem 0.6rem 0.4rem white;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1rem;
+}
+
+footer img {
+    width: 4rem;
+    height: 4rem;
+    border: solid 0.2rem black;
+    border-radius: 100%;
+    background: black;
+}
+
+footer div.GitHub, footer div.Instagram, footer div.Email, footer div.Linkedin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    gap: 1rem;
+}
+
+
+
+@media screen and (min-width:2133px) {
+    footer {
+        background: #0f373a;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10rem;
+        border: double 0.8rem white;
+        justify-content: center;
+    }
+
+    footer div.footer {
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+
+    footer h1 {
+        margin-left: -4rem;
+        font-size: 4rem;
+        text-shadow: 0.6rem 0.6rem 0.4rem white;
+    }
+    
+    footer nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15rem;
+    }
+    
+    footer img {
+        width: 4rem;
+        height: 4rem;
+        border: solid 0.2rem black;
+        border-radius: 100%;
+        background: black;
+    }
+    
+    footer div.GitHub, footer div.Instagram, footer div.Email, footer div.Linkedin {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,128 @@
+.container main div.Inicio {
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem black;
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient( to right, #0d4045 20%, #7b7b7b 100%);
+}
+
+.container main div.Inicio img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  border: solid 0.2rem white;
+  margin-left: 0.7rem;
+  margin-top: 0.3rem;
+  box-shadow: 1rem 1rem 1rem black;
+  position: absolute;
+  top: 38rem;
+
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 5rem;
+  }
+
+  50% {
+    margin-left: -5rem;
+  }
+
+  100% {
+      margin-left: 5rem;
+  }
+}
+
+.container main div.Inicio p {
+  font-size: 1.6rem;
+  margin-bottom: -10rem;
+}
+
+.container main div.Inicio h1 {
+  font-family: 'Cedarville Cursive', sans-serif;
+  font-size: 3.6rem;
+  margin-top: 10rem;
+  animation: changeColor 6s infinite;
+  text-shadow: 1.5rem 1.5rem 1rem black;
+  border-radius: 10rem;
+  border: none;
+}
+
+@keyframes changeColor {
+  0%   {color: #F5F5F5;}
+  20%  {color: #DCDCDC;}
+  40%  {color: #FFFAF0;}
+  60% {color: #FDF5E6;}
+  80% {color: #FFFAF0;}
+  100% {color: #DCDCDC;}
+}
+
+@media screen and (min-width:2133px) {
+  .container main div.Inicio {
+    height: 60rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10rem;
+    align-items: center;
+    background-image: linear-gradient( to right, #0d4045 20%, #7b7b7b 100%);
+}
+
+.container main div.Inicio img {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    border: solid 0.2rem white;
+    box-shadow: 1rem 1rem 1rem black;
+
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 15rem;
+  }
+
+  50% {
+    margin-left: -15rem;
+  }
+
+  100% {
+      margin-left: 15rem;
+  }
+}
+
+.container main div.Inicio p {
+    font-size: 3.6rem;
+    margin-top: -6rem;
+    margin-bottom: -6rem;
+}
+
+.container main div.Inicio h1 {
+    font-family: 'Cedarville Cursive', sans-serif;
+    font-size: 5.6rem;
+    animation: changeColor 6s infinite;
+    text-shadow: 1.5rem 1.5rem 1rem black;
+    border-radius: 10rem;
+    border: none;
+}
+
+@keyframes changeColor {
+    0%   {color: #F5F5F5;}
+    20%  {color: #DCDCDC;}
+    40%  {color: #FFFAF0;}
+    60% {color: #FDF5E6;}
+    80% {color: #FFFAF0;}
+    100% {color: #DCDCDC;}
+  }
+}

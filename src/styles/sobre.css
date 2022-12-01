@@ -1,0 +1,54 @@
+.container main div.Sobre {
+    height: 66rem;
+    margin-top: 0;
+    background: #0d4045;
+    border: solid 0.1rem black;
+    padding-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container main div.Sobre h1 {
+    font-size: 3.6rem;
+    text-shadow: 0.3rem 0.2rem 1rem white;
+    margin-bottom: -1rem;
+}
+
+.container main div.Sobre div p {
+    border: solid 0.1rem white;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+
+@media screen and (min-width:2133px) {
+    .container main div.Sobre {
+        height: 80rem;
+        margin-top: 0;
+        background: #0d4045;
+        border: solid 0.1rem black;
+        padding-left: 12rem;
+        padding-top: 0rem;
+        display: flex;
+        flex-direction: row;
+        gap: 15rem;
+        align-items: center;
+    }
+
+    .container main div.Sobre h1 {
+        font-size: 12rem;
+        text-shadow: 0.3rem 0.2rem 1rem white;
+    }
+
+    .container main div.Sobre div p {
+        width: 60rem;
+        height: 70rem;
+        border: solid 0.1rem white;
+        padding: 1rem;
+        font-size: 3.6rem;
+        text-align: justify;
+    }
+}

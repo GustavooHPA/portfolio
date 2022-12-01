@@ -1,0 +1,122 @@
+.container main div.Linguagens {
+    display: flex;
+    flex-direction: column;
+    height: 160rem;
+    margin-top: 0;
+    margin: 0;
+    background: #006069;
+    border: solid 0.1rem black;
+    padding-top: 0rem;
+    gap: 15rem;
+    text-align: left;
+
+}
+
+.container main div.Linguagens h1.Title {
+    font-size: 3.2rem;
+    text-align: center;
+    text-shadow: 0.5rem 0.4rem 1rem white;
+    margin-bottom: -12rem;
+}
+
+.container main div.Linguagens div.Categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+div.TenhoExp, div.EstouEst, div.TenhoInt {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: double 0.6rem #e6e6e6;
+    padding: 1rem;
+}
+
+div.TenhoExp img, div.EstouEst img, div.TenhoInt img {
+    width: 5rem;
+    height: 5rem;
+}
+
+div.JS, div.HTML, div.CSS, div.REACT, div.TS, div.NODEJS, div.GIT, div.SQL, div.CSHARP, div.PYTHON, div.JAVA, div.PHP {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.6rem;
+    align-items: center;
+}
+
+div.JS img, div.HTML img, div.CSS img, div.REACT img, div.TS img, div.NODEJS img, div.GIT img, div.SQL img, div.CSHARP img, div.PYTHON img, div.JAVA img, div.PHP img {
+    border: solid 0.1rem white;
+    border-radius: 0.4rem;
+}
+
+div.REACT img, div.NODEJS img, div.GIT img, div.PHP img {
+    background-color: rgb(38, 38, 38);
+}
+
+@media screen and (min-width:2133px) {
+    .container main div.Linguagens {
+        display: flex;
+        flex-direction: column;
+        height: 70rem;
+        margin-top: 0;
+        background: #006069;
+        border: solid 0.1rem black;
+        padding-top: 0rem;
+        gap: 15rem;
+        text-align: left;
+    
+    }
+    
+    .container main div.Linguagens h1.Title {
+        font-size: 8rem;
+        text-shadow: 0.5rem 0.4rem 1rem white;
+        margin-left: 1rem;
+        margin-bottom: -12rem;
+    }
+    
+    .container main div.Linguagens div.Categorias {
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    
+    div.TenhoExp, div.EstouEst, div.TenhoInt {
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        border: double 0.6rem #e6e6e6;
+        padding-left: 2rem;
+    }
+    
+    div.TenhoExp img, div.EstouEst img, div.TenhoInt img {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    div.JS, div.HTML, div.CSS, div.REACT, div.TS, div.NODEJS, div.GIT, div.SQL, div.CSHARP, div.PYTHON, div.JAVA, div.PHP {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 2rem;
+        align-items: center;
+    }
+    
+    div.JS img, div.HTML img, div.CSS img, div.REACT img, div.TS img, div.NODEJS img, div.GIT img, div.SQL img, div.CSHARP img, div.PYTHON img, div.JAVA img, div.PHP img {
+        border: solid 0.1rem white;
+        border-radius: 0.4rem;
+    }
+    
+    div.REACT img, div.NODEJS img, div.GIT img, div.PHP img {
+        background-color: rgb(38, 38, 38);
+    }
+ }

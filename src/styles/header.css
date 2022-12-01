@@ -1,0 +1,58 @@
+.container header {
+    height: 14rem;
+    margin-bottom: 0;
+    border: solid 0.1rem black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+    background-image: linear-gradient( to right, #0d4045 10%, #7b7b7b 100%);
+}
+
+.container header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container header nav button {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: solid 0.1rem white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:2133px) {
+    .container header {
+        height: 12rem;
+        margin-bottom: 0;
+        border: solid 0.1rem black;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+        background-image: linear-gradient( to right, #0d4045 10%, #7b7b7b 100%);
+    }
+    
+    .container header nav {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        align-items: center;
+    }
+    
+    .container header nav button {
+        font-size: 2.6rem;
+        color: white;
+        text-decoration: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,37 @@
+.container main div.Projetos {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    margin-top: 0;
+    margin: 0;
+    background: #18565c;
+    border: solid 0.1rem black;
+    padding-top: 0rem;
+    gap: 15rem;
+    align-items: center;
+}
+
+.container main div.Projetos h1 {
+    font-size: 3.6rem;
+    text-shadow: 0.5rem 0.4rem 1rem white;
+}
+
+@media screen and (min-width:2133px) { 
+    .container main div.Projetos {
+        display: flex;
+        flex-direction: column;
+        height: 80rem;
+        margin-top: 0;
+        background: #18565c;
+        border: solid 0.1rem black;
+        padding-top: 0rem;
+        gap: 15rem;
+        align-items: center;
+    }
+
+    .container main div.Projetos h1 {
+        font-size: 12rem;
+        text-shadow: 0.5rem 0.4rem 1rem white;
+    }
+}
+
